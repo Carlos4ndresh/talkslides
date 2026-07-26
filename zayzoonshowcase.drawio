@@ -224,9 +224,6 @@
         <mxCell id="Didn_XXj3L_eLYl4c_5Q-99" parent="Didn_XXj3L_eLYl4c_5Q-4" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.general_access_points;" value="EFS AP" vertex="1">
           <mxGeometry height="30" width="25" x="822.5" y="486" as="geometry" />
         </mxCell>
-        <mxCell id="Didn_XXj3L_eLYl4c_5Q-45" parent="Didn_XXj3L_eLYl4c_5Q-4" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ecr;" value="Amazon ECR" vertex="1">
-          <mxGeometry height="90" width="70" x="-180" y="456" as="geometry" />
-        </mxCell>
         <mxCell id="Didn_XXj3L_eLYl4c_5Q-124" edge="1" parent="Didn_XXj3L_eLYl4c_5Q-4" source="Didn_XXj3L_eLYl4c_5Q-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Didn_XXj3L_eLYl4c_5Q-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -352,14 +349,18 @@
         <mxCell id="Didn_XXj3L_eLYl4c_5Q-169" parent="Didn_XXj3L_eLYl4c_5Q-3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.flow_logs;" value="Flow Logs" vertex="1">
           <mxGeometry height="78" width="78" x="1506" y="496" as="geometry" />
         </mxCell>
-        <mxCell id="Didn_XXj3L_eLYl4c_5Q-59" parent="Didn_XXj3L_eLYl4c_5Q-1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.ecs_task;" value="TaskDef+" vertex="1">
-          <mxGeometry height="48" width="37" x="46.5" y="460" as="geometry" />
-        </mxCell>
-        <mxCell id="Didn_XXj3L_eLYl4c_5Q-60" edge="1" parent="Didn_XXj3L_eLYl4c_5Q-1" source="Didn_XXj3L_eLYl4c_5Q-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Didn_XXj3L_eLYl4c_5Q-59">
+        <mxCell id="L-mwIwjxVvQzPpFEyq1P-25" edge="1" parent="Didn_XXj3L_eLYl4c_5Q-1" source="Didn_XXj3L_eLYl4c_5Q-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Didn_XXj3L_eLYl4c_5Q-45">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Didn_XXj3L_eLYl4c_5Q-59" parent="Didn_XXj3L_eLYl4c_5Q-1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.ecs_task;" value="TaskDef+" vertex="1">
+          <mxGeometry height="48" width="37" x="50.5" y="314" as="geometry" />
         </mxCell>
         <mxCell id="Didn_XXj3L_eLYl4c_5Q-61" edge="1" parent="Didn_XXj3L_eLYl4c_5Q-1" source="Didn_XXj3L_eLYl4c_5Q-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Didn_XXj3L_eLYl4c_5Q-58">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="69" y="490" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Didn_XXj3L_eLYl4c_5Q-109" edge="1" parent="Didn_XXj3L_eLYl4c_5Q-1" source="Didn_XXj3L_eLYl4c_5Q-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Didn_XXj3L_eLYl4c_5Q-106">
           <mxGeometry relative="1" as="geometry" />
@@ -411,17 +412,35 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="L-mwIwjxVvQzPpFEyq1P-18" parent="Didn_XXj3L_eLYl4c_5Q-1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cloudwatch_logs;" value="CW Logs" vertex="1">
+          <mxGeometry height="40.9" width="55" x="41.5" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Didn_XXj3L_eLYl4c_5Q-45" parent="Didn_XXj3L_eLYl4c_5Q-1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ecr;" value="Amazon ECR" vertex="1">
+          <mxGeometry height="90" width="70" x="37" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="L-mwIwjxVvQzPpFEyq1P-22" edge="1" parent="Didn_XXj3L_eLYl4c_5Q-1" source="Didn_XXj3L_eLYl4c_5Q-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="L-mwIwjxVvQzPpFEyq1P-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-mwIwjxVvQzPpFEyq1P-23" edge="1" parent="Didn_XXj3L_eLYl4c_5Q-1" source="Didn_XXj3L_eLYl4c_5Q-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="L-mwIwjxVvQzPpFEyq1P-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="674" y="1020" />
+              <mxPoint x="10" y="1020" />
+              <mxPoint x="10" y="700.57" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Didn_XXj3L_eLYl4c_5Q-51" edge="1" parent="1" source="Didn_XXj3L_eLYl4c_5Q-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Didn_XXj3L_eLYl4c_5Q-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Didn_XXj3L_eLYl4c_5Q-47" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Defender_Engineering_Station.svg;" value="" vertex="1">
           <mxGeometry height="62.839999999999996" width="68" x="-1030" y="296.58" as="geometry" />
         </mxCell>
-        <mxCell id="Didn_XXj3L_eLYl4c_5Q-52" edge="1" parent="1" source="Didn_XXj3L_eLYl4c_5Q-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Didn_XXj3L_eLYl4c_5Q-45">
+        <mxCell id="L-mwIwjxVvQzPpFEyq1P-21" edge="1" parent="1" source="Didn_XXj3L_eLYl4c_5Q-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Didn_XXj3L_eLYl4c_5Q-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Didn_XXj3L_eLYl4c_5Q-48" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/font-awesome/1/Docker_brand.svg" value="WP Alpine Image+" vertex="1">
-          <mxGeometry height="56" width="70" x="-850" y="300" as="geometry" />
+          <mxGeometry height="56" width="70" x="-860" y="90" as="geometry" />
         </mxCell>
         <mxCell id="Didn_XXj3L_eLYl4c_5Q-83" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_account;strokeColor=#CD2264;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#CD2264;dashed=0;" value="AWS Account 2" vertex="1">
           <mxGeometry height="400" width="520" x="1570" y="-220" as="geometry" />
