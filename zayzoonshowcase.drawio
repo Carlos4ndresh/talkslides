@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="FNL9TYCYL6tOduXb4k00">
-    <mxGraphModel dx="3306" dy="2349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="4960" dy="3473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -417,12 +417,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Didn_XXj3L_eLYl4c_5Q-153" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" value="" vertex="1">
-          <mxGeometry height="98.28" width="156" x="1310" y="-440" as="geometry" />
+          <mxGeometry height="98.28" width="156" x="1200" y="-360" as="geometry" />
         </mxCell>
         <mxCell id="Didn_XXj3L_eLYl4c_5Q-155" edge="1" parent="1" source="Didn_XXj3L_eLYl4c_5Q-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Didn_XXj3L_eLYl4c_5Q-153">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1926.4699999999998" y="-390" />
+              <mxPoint x="1926.5" y="-310.75" />
             </Array>
           </mxGeometry>
         </mxCell>
