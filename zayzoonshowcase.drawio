@@ -430,6 +430,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="L-mwIwjxVvQzPpFEyq1P-26" parent="Didn_XXj3L_eLYl4c_5Q-1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cloudwatch_synthetics;" value="CW Synthetics" vertex="1">
+          <mxGeometry height="67.13" width="68" x="1350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-mwIwjxVvQzPpFEyq1P-27" edge="1" parent="Didn_XXj3L_eLYl4c_5Q-1" source="L-mwIwjxVvQzPpFEyq1P-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="Didn_XXj3L_eLYl4c_5Q-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Didn_XXj3L_eLYl4c_5Q-51" edge="1" parent="1" source="Didn_XXj3L_eLYl4c_5Q-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Didn_XXj3L_eLYl4c_5Q-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
